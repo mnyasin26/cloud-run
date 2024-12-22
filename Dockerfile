@@ -1,4 +1,4 @@
-FROM node:23.4
+FROM node:18.19.1
 WORKDIR /app
 ENV PORT 3000
 COPY . .
